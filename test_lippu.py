@@ -59,3 +59,7 @@ def test_kokonaishinta_9_aikuista():
 def test_kokonaishinta_10_aikuista():
     iat = [30] * 10
     assert kokonaishinta(iat) == 135.0
+
+### opiskelija ### ###
+def test_opiskelijan_lippuhinta():
+    assert lippuhinta(20, opiskelija=True) == 10.0
